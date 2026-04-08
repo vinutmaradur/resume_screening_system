@@ -1,0 +1,4 @@
+build-essential
+gcc
+python3-dev
+poppler-utils
