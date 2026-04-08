@@ -8,7 +8,7 @@ pdfminer.six
 streamlit-tags
 plotly
 yt-dlp
-
+setuptools
 spacy==3.4.4
 thinc==8.1.10
 
