@@ -33,7 +33,16 @@ Dense = tf.keras.layers.Dense
 load_model = tf.keras.models.load_model
 
 import nltk
-nltk.download('stopwords')
+
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
 
 import mysql.connector
 
