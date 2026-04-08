@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+pdfminer.six
+pyresparser
+
+spacy==3.4.4
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.1/en_core_web_sm-3.4.1.tar.gz
+
+nltk
+scikit-learn
+plotly
+Pillow
+streamlit-tags
