@@ -19,3 +19,4 @@ wheel
 pdf2image==1.16.3
 opencv-python-headless==4.8.1.78
 pyresparser==1.0.6
+mysql-connector-python==8.0.33
